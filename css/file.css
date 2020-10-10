@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Autour+One');
+
+body {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: 555;
+  height: 100%;
+  background-color: rgba(255, 214, 167, 1);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgba(160, 77, 0, 1);
+  font-family: Autour One;
+  font-weight: Regular;
+  overflow-wrap: break-word;
+  font-size: 48px;
+  margin-top: 0 !important;
+  text-align: center;
+}
+.bg-primary {
+  background: #FF9658 !important;
+}
+
+p {
+  width: 305px;
+  color: rgba(160,77,0,1);
+  top: 276px;
+  left: 442px;
+  font-family: Autour One;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: #f85c37;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+
+.navbar {
+  background: rgba(230, 94, 15, 1);
+  font-family: "Autour One";
+  font-weight: 800;
+  font-size: 14px;
+  border: 0px solid rgba(150, 150, 150, 1);
+  margin-bottom: 0;
+}
+
+.navbar-inverse {
+  background: rgba(230, 94, 15, 1);
+}
+
+#logo {
+  font-family: "Kaushan Script";
+}
+
+#btnlog {
+  width: fit-content;
+  height: 38px;
+  background: rgba(255, 150, 88, 1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(255, 150, 88, 1);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  overflow: hidden;
+}
+
+
+.bg-image {
+  background-image: url("img/honeycomb.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.table td, .table th {
+  border-color: black !important;
+  vertical-align: middle !important;
+}
+
+.container {
+  height: 100%;
+  margin-top: 100px;
+  position: relative;
+}
+
+#loginForm {
+  padding-top: 100px;
+  width: 500px;
+  height: 400px;
+  position: relative;
+  z-index: 10;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#round {
+  border-radius: 25px;
+  background: #FF9658;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+#image {
+  top: -50px;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.honeycomb {
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
