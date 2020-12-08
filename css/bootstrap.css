@@ -4842,13 +4842,13 @@ input[type="button"].btn-block {
 
 .badge-danger {
   color: #fff;
-  background-color: #dc3545;
+  background-color:rgba(255, 150, 88, 1);
 }
 
 .badge-danger[href]:hover, .badge-danger[href]:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #bd2130;
+  background-color: rgba(255, 150, 88, 1);
 }
 
 .badge-light {
@@ -4991,7 +4991,7 @@ input[type="button"].btn-block {
 }
 
 .alert-danger {
-  color: #721c24;
+  color: rgba(255, 150, 88, 1);
   background-color: #f8d7da;
   border-color: #f5c6cb;
 }
@@ -5001,7 +5001,7 @@ input[type="button"].btn-block {
 }
 
 .alert-danger .alert-link {
-  color: #491217;
+  color:rgba(255, 150, 88, 1);
 }
 
 .alert-light {
