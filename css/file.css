@@ -6,7 +6,7 @@ body {
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
-  color: 555;
+  color: #555;
   height: 100%;
   background-color: rgba(255, 214, 167, 1);
   overflow: hidden;
@@ -17,7 +17,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: rgba(160, 77, 0, 1);
   font-family: Autour One;
-  font-weight: Regular;
+  font-weight: normal;
   overflow-wrap: break-word;
   font-size: 48px;
   margin-top: 0 !important;
@@ -33,7 +33,7 @@ p {
   top: 276px;
   left: 442px;
   font-family: Autour One;
-  font-weight: Regular;
+  font-weight: normal;
   font-size: 16px;
   opacity: 1;
   text-align: left;
@@ -71,7 +71,7 @@ a:hover, a:focus {
   font-family: "Kaushan Script";
 }
 
-#btnlog {
+.btnstyle{
   width: fit-content;
   height: 38px;
   background: rgba(255, 150, 88, 1);
@@ -87,9 +87,8 @@ a:hover, a:focus {
   overflow: hidden;
 }
 
-
 .bg-image {
-  background-image: url("img/honeycomb.png");
+  background-image: url("../img/honeycomb.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
